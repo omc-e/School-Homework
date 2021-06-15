@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="#">
+    
+    <title>Stranica preduzeca</title>
+  </head>
+  <body>
+    
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Emsar</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Second Page</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/emsar-omic-23317b1a4/?originalSubdomain=ba" class="nav-link">LinkedIn</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/profile.php?id=100004298265406" class="nav-link">Facebook</a>
+                </li>
+                <li class="nav-item">
+                    <a href="github.com/omc-e" class="nav-link">GitHub</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+</header>
+
+<div class="no-header">
+
+<div class="jumbotron">
+    <h1>We are IT Solutions</h1>
+    <p>Make a real splash in life!</p>
+    <form class="form-inline">
+      <div class="input-group">
+        <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-danger">Subscribe</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="office1.jpg" style="width:100%;">
+      <div class="text">Sarajevo Office</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="office2.jpg" style="width:100%;">
+      <div class="text">Tuzla Office</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="office3.jpg" style="width:100%">
+      <div class="text">Mostar Office</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="office4.jpg" style="width:100%">
+        <div class="text">New York Office</div>
+      </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+  
+  <div class="about-section">
+    <h1>About Us Page</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..</p>
+    <p>Resize the browser window to see that this page is responsive by the way.</p>
+  </div>
+
+  <div class="container-conactus">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+     
+      <div class="column">
+        <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  
+
+<footer class="icons">
+    <div class="flex-container">
+    <div>
+        <a href="www.facebook.com" class="fa fa-facebook"></a>
+    </div>
+    <div>
+        <a href="www.linkedin.com" class="fa fa-linkedin"></a>
+    </div>
+    <div>
+        <a href="google" class="fa fa-google"></a>
+    </div>
+    <div>
+        <a href="instagram.com" class="fa fa-instagram"></a>
+    </div>
+    </div>
+    <p class="copyright">IT Solutions © 2021</p>
+    </footer>
+</div>
+
+<script  src="script.js"></script>
+
+  </body>
+</html>
